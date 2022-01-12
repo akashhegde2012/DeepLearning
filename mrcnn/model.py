@@ -135,7 +135,7 @@ def conv_block(input_tensor, kernel_size, filters, stage, block,
                strides=(2, 2), use_bias=True, train_bn=True):
     """conv_block is the block that has a conv layer at shortcut
     # Arguments
-        input_tensor: input tensor
+        input_tensor: input tensor  
         kernel_size: default 3, the kernel size of middle conv layer at main path
         filters: list of integers, the nb_filters of 3 conv layer at main path
         stage: integer, current stage label, used for generating layer names
